@@ -27,16 +27,49 @@ display: inline-block;
   transition: opacity 0.3s ease-in-out;
 }
 
-.logo{
+.logo-box{
     display: flex;
-    justify-content: center;
-    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    min-height: 92px;
+    height: calc(100% - 560px);
+    max-height: 290px;
+    flex-shrink: 0;
+    box-sizing: border-box;
 }
 
-.form_box{
+
+
+.logo{
+    max-height: 92px;
+    position: relative;
+    height: 100%;
+    margin-top: auto;
+}
+
+.img{
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+}
+.word{
+
+    color: #4285f4;
+    font: 16px/16px  Arial, sans-serif;
+    position: absolute;
+    left: 215px;
+    white-space: nowrap;
+    bottom: 0;
+}
+
+.form-box{
+    padding: 20px;
     display: flex;
+    flex-shrink: 0;
     margin-top: 20px;
-    box-sizing: center;
+    box-sizing: border-box;
 }
 
 form{

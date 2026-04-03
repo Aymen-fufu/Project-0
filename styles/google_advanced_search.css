@@ -1,0 +1,97 @@
+html{
+    scrollbar-gutter: stable;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: inherit;
+    font-style: inherit;
+    font-size: 100%;
+    text-decoration: none;
+}
+
+body{
+    min-height: 100%;
+    position: relative;
+    font-family: Arial,sans-serif;
+}
+
+header{
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 6px;
+  flex-shrink: 0;
+  box-sizing: border-box;
+}
+
+.link_is{
+
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+
+}
+
+.label-box{
+    color: #d93025;
+    font-size: 20px;
+    margin: 25px 35px;
+}
+
+.label{
+    margin-left: 10px;
+}
+
+.border{
+    border-bottom: 1px solid #ebdeeb;
+}
+
+.form-box{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+
+.upper-text{
+    min-width: 167px;
+    width: 16px;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    color: #333;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.input-box{
+    width: 100px;
+    clear: both;
+}
+
+.text{
+    float: left;
+    min-width: 167px;
+    width: 16px;
+    height: 42px;
+    color: #222;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.input{
+
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    width: 50%;
+    padding-right: 16px;
+}
+
+input{
+    width: 100%;
+    text-align: left;
+}

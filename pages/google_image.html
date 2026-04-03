@@ -2,23 +2,25 @@
 <html lang="en">
     <head>
         <title>Image Search</title>
-        <link rel="stylesheet" href="styles\google_image.css">
+        <link rel="stylesheet" href="../styles/google_image.css">
     </head>
     <body>
         <header class="header">
         
-            <a id="link_is" href ="D:\projects\Project 0\index.html" >Google</a>
-            <a id="link_as" href ="google_advanced_search.html" >Advanced Search</a>
+            <a id="link_is" href ="../index.html" >Google</a>
         </header>
+        <div class="logo-box">
             <div class="logo">
-                <img src="images\google_logo.png" alt="Google img Logo">
+                <img class ="img" src="../images/google_logo.png" alt="Google img Logo">
+                <span class = "word"> images</span>
             </div>
+        </div>
         <div class="form-box">
             <form action = "https://images.google.fr/search">
                 <input class="res" type = "text" name = "q">
                 <input type = hidden name = "tbm" value = "isch">
-                <input type = "submit" value = "Google Search">
-        </div>
+                <input class = "submit" type = "submit" value = "Google Search">
             </form>
+        </div>
     </body>
 </html>

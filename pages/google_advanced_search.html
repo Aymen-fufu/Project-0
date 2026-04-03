@@ -1,25 +1,69 @@
 <!DOCTYPE html>
 <html lang = "en">
+
     <head>
+        <link rel="stylesheet" href="../styles/google_advanced_search.css">
         <title>Advanced Search</title>
     </head>
-    <body>
-        <form action = "https://www.google.fr/advanced_search">
-             Trouvez des pages avec... <br>
-            tous les mots suivants : <input type = "text" name = "as_q"> <br>
-            ce mot mot ou cette expression exact(e) : <input type = "text" name = "as_epq"> <br>
-            l'un des mots suivants : <input type = "text" name = "as_oq"> <br>
-            aucun des mots suivants : <input type = "text" name = "as_eq"> <br>
-            nombres compris entre : <input type = "text" name = "as_nlo"> et <input type = "text" name = "as_nhi"> <br>
 
-            Affinez ensuite la recherche par... <br>
-            langue: <input type = "text" name = "lr"> <br>
-            region: <input type = "text" name = "cr"> <br>
-            dernière mise à jour: <input type = "text" name = "as_qdr"> <br>
-            site ou domaine: <input type = "text" name = "as_sitesearch"> <br>
-            termes appparaissant: <input type = "text" name = "as_occt"> <br>
-            type de fichier: <input type = "text" name = "as_filetype"> <br>
-            droits d'usage: <input type = "text" name = "tbs"> <br>
-            <input type = "submit" value = "Google Advanced Search">
-        </form>
+    <body>
+
+        <header class="header">
+            <a id="link_is" href ="/index.html" >
+                <img class="logo" src="../images/mini_google_logo.png" alt ="clickable logo">
+            </a>
+        </header>
+
+        <div class="label-box">
+            <label for="label">Recherche avancée</label>
+        </div>
+
+        <div class="border"></div>
+
+        <div class = "form-box">
+
+            <form action = "https://www.google.fr/advanced_search">
+
+                <div class= "upper-text">
+                    <span>Trouvez des pages avec...</span>
+                </div>
+
+                <div class="input-box">
+
+                    <div class="text">
+                        <label for=".">tous les mots suivants :</label>
+                    </div>
+                    <div class="input">
+                        <input type = "text" name = "as_q"> 
+                    </div>
+                        
+                    <div class="text">
+                        <label for=".">ce mot ou cette expression exact(e) :</label> 
+                    </div>
+                    <div class="input">
+                        <input type = "text" name = "as_epq">
+                    </div>
+
+                    <div class="text">
+                        <label for="text">l'un des mots suivants :</label>
+                    </div>
+                    <div class="input">
+                        <input type = "text" name = "as_oq"> 
+                    </div>
+
+                    <div class="text">
+                        <label for=".">aucun des mots suivants :</label> 
+                    </div>
+                    <div class="input">
+                        <input type = "text" name = "as_eq">
+                    </div>
+                    <div class="text">    
+                        <label for=".">nombres compris entre :</label>
+                    </div>
+                    <div class="input">
+                        <input type = "text" name = "as_nlo"> <label for="et">et</label> <input type = "text" name = "as_nhi">
+                    </div>
+                </div>
+            </form>
+        </div>
     </body>
