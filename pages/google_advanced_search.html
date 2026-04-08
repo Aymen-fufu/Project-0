@@ -22,7 +22,7 @@
 
         <div class = "form-box">
 
-            <form action = "https://www.google.fr/advanced_search">
+            <form action = "https://www.google.fr/advanced_search/search">
 
                 <div class= "upper-text">
                     <span>Trouvez des pages avec...</span>
@@ -36,7 +36,7 @@
                     <div class="input">
                         <input type = "text" name = "as_q"> 
                     </div>
-                        
+                    
                     <div class="text">
                         <label for=".">ce mot ou cette expression exact(e) :</label> 
                     </div>
@@ -60,9 +60,13 @@
                     <div class="text">    
                         <label for=".">nombres compris entre :</label>
                     </div>
-                    <div class="input">
-                        <input type = "text" name = "as_nlo"> <label for="et">et</label> <input type = "text" name = "as_nhi">
+                    <div class="input" id="number_input">
+                        <input type = "text" id="as_nlo" name = "as_nlo"> <div id ="et">et</div> <input id ="as_nhi" type = "text" name = "as_nhi">
                     </div>
+                   <div class="btn-box">
+                        <input name="tbs" type="hidden" value="">
+                        <input class="btn" value="Recherche avancée" type="submit">
+                   </div> 
                 </div>
             </form>
         </div>

@@ -66,14 +66,15 @@ header{
 }
 
 .input-box{
-    width: 100px;
+    width: 100;
     clear: both;
 }
 
 .text{
     float: left;
+    clear: left;
     min-width: 167px;
-    width: 16px;
+    width: 16%;
     height: 42px;
     color: #222;
     font-size: 13px;
@@ -83,7 +84,6 @@ header{
 }
 
 .input{
-
     float: left;
     min-width: 167px;
     min-height: 41px;
@@ -94,4 +94,63 @@ header{
 input{
     width: 100%;
     text-align: left;
+}
+
+
+#number_input{
+    position: relative;
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    display: table;
+    width: 50%;
+}
+
+#as_nlo{
+    display: table-cell;
+}
+
+#et{
+    display: table-cell;
+    width: 40px;
+    padding-right: 6px;
+    padding-left: 6px;
+    text-align: center;
+    font-size: 13px;
+    color: #222;
+}
+
+#as_nhi{
+    display: table-cell;
+}
+
+
+
+.btn-box{
+    text-align: right;
+    float: left;
+    min-width: 167px;
+    min-height: 41px;
+    width: 50%;
+}
+
+.btn{
+    user-select: none;
+    line-height: 28px;
+    width: 120px;
+    display: inline-block;
+    margin: 10px 0;
+    padding: 0;
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+    outline: 0;
 }
