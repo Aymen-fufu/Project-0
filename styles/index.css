@@ -65,6 +65,13 @@ form{
     margin: 0 auto;
 }
 
+.input-box{
+    display: flex;
+    justify-content: center ;
+    gap: 10px;
+}
+
+
 .submit{
     background-color: #f8f9fa;
     border: 8px solid #f8f9fa;

@@ -92,7 +92,10 @@ form{
     margin: 0 auto;
 }
 
-
+.input-box{
+    display: flex;
+    justify-content: center;
+}
 
 .submit{
     background-color: #f8f9fa;
